@@ -67,7 +67,7 @@ section {
 }
 
 .sections-bg {
-  background-color: #373737;
+  background-color: #151515;
 }
 
 .section-header {
@@ -940,7 +940,7 @@ section {
 
 .services .service-item {
   padding: 40px;
-  background: #fff;
+  background: #101010c9;
   height: 100%;
   border-radius: 10px;
 }
@@ -957,18 +957,19 @@ section {
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
+  color: rgb(255, 255, 255);
   position: relative;
 }
 
 .services .service-item .icon:before {
   position: absolute;
   content: "";
-  height: 100%;
-  width: 100%;
-  background: #eeeeee;
+  height: 170%;
+  width: 170%;
+  background: #000000;
   border-radius: 50px;
   z-index: 1;
-  top: 10px;
+  top: 2px;
   right: -20px;
   transition: 0.3s;
 }
@@ -979,6 +980,7 @@ section {
   margin: 0 0 20px 0;
   padding-bottom: 8px;
   font-size: 22px;
+  color: snow;
   position: relative;
   display: inline-block;
   border-bottom: 4px solid #eeeeee;
@@ -998,11 +1000,11 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #141515;
+  background: #1a1a1a;
 }
 
 .services .service-item:hover h3 {
-  border-color: var(--color-primary);
+  border-color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -1127,11 +1129,13 @@ section {
   margin: 0 10px;
   line-height: 1;
   transition: all 0.3s ease-in-out;
+  font-weight: bolder;
 }
 
 .portfolio .portfolio-flters li:hover,
 .portfolio .portfolio-flters li.filter-active {
-  color: var(--color-primary);
+  color: #000;
+  font-weight: bolder;
 }
 
 .portfolio .portfolio-flters li:first-child {
