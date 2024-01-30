@@ -1078,6 +1078,23 @@ section {
   margin: 15px auto 15px auto;
 }
 
+/* added */
+.testimonials .testimonial-item h3 {
+  color: white;
+  font-size: 30px;
+}
+.testimonials .testimonial-item .post-date time {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.testimonials .testimonial-item a {
+  font-size: 18px;
+  color: #0051ff;
+  font-weight: 800;
+  margin-bottom: 0;
+  font-style: normal;
+}
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
