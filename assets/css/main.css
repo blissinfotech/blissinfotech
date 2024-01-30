@@ -1088,7 +1088,11 @@ section {
   color: #ffffff;
   margin-bottom: 0;
 }
-.testimonials .testimonial-item a {
+.testimonials .testimonial-item span{
+  color: white;
+}
+
+.testimonials .testimonial-item .registration-form {
   font-size: 18px;
   color: #0051ff;
   font-weight: 800;
@@ -1315,11 +1319,13 @@ section {
   background: var(--color-primary);
   color: #fff;
   border-radius: 50px;
+  font-weight: bolder;
   transition: 0.3s;
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
+  background: #fff;
+  color: #000;
 }
 
 .portfolio-details .portfolio-description h2 {
