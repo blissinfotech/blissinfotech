@@ -1220,6 +1220,10 @@ section {
   padding-right: 50px;
 }
 
+.portfolio .portfolio-wrap .portfolio-info ul li span {
+  text-align: justify;
+}
+
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
 }
@@ -1326,6 +1330,10 @@ section {
 .portfolio-details .portfolio-info .btn-visit:hover {
   background: #fff;
   color: #000;
+}
+
+.portfolio-details .portfolio-description{
+  text-align: justify;
 }
 
 .portfolio-details .portfolio-description h2 {
