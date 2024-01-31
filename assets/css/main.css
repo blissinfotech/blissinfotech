@@ -1354,6 +1354,16 @@ section {
   margin-bottom: 50px;
 }
 
+.testimonials .testimonial-item .view-detail{
+  right: 0;
+  color: white;
+  font-style: italic;
+  text-align: end;
+  right: 20px;
+  bottom: 20px;
+  position: absolute;
+}
+
 .portfolio-details .portfolio-description .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50px;
